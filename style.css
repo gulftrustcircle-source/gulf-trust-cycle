@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* HEADER */
+.header {
+  background-color: maroon;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  letter-spacing: 3px;
+}
+
+.tagline {
+  margin-top: 10px;
+  font-size: 1.1em;
+}
+
+/* SECTIONS */
+.section {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.section h2 {
+  color: maroon;
+  margin-bottom: 15px;
+}
+
+.section h3 {
+  margin-top: 25px;
+}
+
+.section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.section ul li {
+  margin-bottom: 8px;
+}
+
+.appreciation {
+  margin-top: 15px;
+  font-style: italic;
+}
+
+/* CONTACT */
+.contact {
+  background-color: #0b2a45;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  margin-top: 0;
+}
