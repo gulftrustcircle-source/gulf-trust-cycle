@@ -46,13 +46,6 @@ body {
   display: block;
 }
 
-/* SECTIONS */
-.section {
-  max-width: 1000px;
-  margin: 60px auto;
-  padding: 40px 20px;
-}
-
 /* HEADINGS */
 .section h2 {
   color: #6b0f1a;
@@ -73,10 +66,10 @@ body {
 
 /* MISSION */
 .mission {
-  background: url('assets/nature.jpg') center center/cover no-repeat;
+  background-color: #0b1d3a; /* dark blue */
   color: #fff;
   text-align: center;
-  backdrop-filter: blur(4px);
+  padding: 60px 20px;
 }
 
 .mission p {
@@ -90,6 +83,7 @@ body {
   background-color: #0074d9; /* blue */
   color: #fff;
   text-align: center;
+  padding: 60px 20px;
 }
 
 .vision p {
@@ -98,14 +92,15 @@ body {
   font-size: 18px;
 }
 
-/* ABOUT */
-.about {
-  background-color: #fff8e7; /* cream */
+/* CREAM BACKGROUND */
+.cream-bg {
+  background-color: #fff8e7;
 }
 
 /* OBJECTIVES */
 .objectives {
-  background-color: #ffffff; /* pure white */
+  background-color: #ffffff;
+  padding: 60px 20px;
 }
 
 .objectives ul {
@@ -118,12 +113,23 @@ body {
   font-size: 16px;
 }
 
-/* LIGHT SECTION */
-.section.light {
-  background-color: #ffffff;
-  padding: 60px 20px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+/* FOUNDERS */
+.founders {
+  list-style: none;
+  margin: 20px 0;
+}
+
+.founders li {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+/* APPRECIATION */
+.appreciation {
+  margin-top: 20px;
+  font-style: italic;
+  color: #555;
+  font-size: 16px;
 }
 
 /* PDF LINK */
